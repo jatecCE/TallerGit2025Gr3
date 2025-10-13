@@ -3,3 +3,8 @@ def imprimeNombre():
 
 def addDescription():
     print("Este es un taller de demostración")
+
+
+def imprimir_jose():
+    print("hola jose :v")
+
