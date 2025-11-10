@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "feature/UnitTest1" ]
   pull_request:
-    branches: [ "develop" ]
+    branches: [ "develop", "feature/UnitTest1" ]
 
 permissions:
   contents: write
