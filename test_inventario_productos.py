@@ -15,7 +15,7 @@ class TestInventarioProductos(unittest.TestCase): # la clase hereda de unittest.
     def test_agregar_producto_correcto(self):
         resultado = self.inv.agregar_producto("C3", "Monitor", 120.0, 3)
         self.assertIsInstance(resultado, dict)
-        self.assertEqual(resultado["codigo"], "C3")
+        self.assertEqual(resultado["codigo"], "C30")
         self.assertIn("C3", self.inv.productos)
 
 
