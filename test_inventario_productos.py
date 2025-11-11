@@ -103,7 +103,7 @@ if __name__ == "__main__":
     
 """Tipos de assertions comunes:
 
-- assertEqual(a, b): Verifica que a y b sean iguales.
+- assertEqual(a, b):  Verifica que a y b sean iguales.
 - assertNotEqual(a, b): Verifica que a y b no sean iguales. 
 - assertTrue(x): Verifica que x sea True.
 - assertFalse(x): Verifica que x sea False.
