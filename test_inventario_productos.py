@@ -101,7 +101,7 @@ if __name__ == "__main__":
     unittest.main()
     
     
-"""Tipos de assertions comunes:
+"""Tipos de assertions comunes :
 
 - assertEqual(a, b): Verifica que a y b sean iguales.
 - assertNotEqual(a, b): Verifica que a y b no sean iguales. 
