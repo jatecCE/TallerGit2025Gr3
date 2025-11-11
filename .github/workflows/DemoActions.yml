@@ -5,14 +5,14 @@ on:
   push:
     branches: [ "feature/DemoUnitTest" ]
   pull_request:
-    branches: [ "develop","feature/DemoUnitTest" ]
+    branches: [ "develop"]
 
 permissions:
   contents: write
 
 jobs:
   build:
-
+    name: TallerCICD
     runs-on: ubuntu-latest
 
     steps:
